@@ -9,8 +9,15 @@ body {
   justify-content: center;
   align-items: center;
   background-color: yellow;
+  min-height: 100vh;
 }
 
+header {
+  padding: 25px;
+}
+footer {
+  padding: 25px;
+}
 main {
   margin: 0;
   padding: 0;
