@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Figtree";
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2 {
+  margin: 5px;
+  color: hsl(0, 0%, 7%);
+  font-size: 1rem;
+}
+
+h2:hover {
+  color: yellow;
+  cursor: pointer;
+}
+span {
+  width: 110px;
+  display: block;
+  background-color: yellow;
+  padding: 2px;
+  border-radius: 5px;
+  margin: 0;
+}
+p {
+  font-size: 0.6rem;
+}
+.text p {
+  font-size: 0.6rem;
+}
+h3 {
+  font-size: 1rem;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  padding: 20px;
+  height: 582px;
+  width: 384px;
+  border-radius: 10px;
+  box-shadow: 7px 7px 5px hsl(0, 0%, 7%);
+  background-color: white;
+  text-align: left;
+}
+
+.avatar {
+  display: flex;
+  justify-content: start;
+  gap: 1rem;
+  align-items: center;
+}
+
+.img-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container img {
+  width: 100%;
+  object-fit: cover;
+}
+.avatar img {
+  height: 2rem;
+  width: 2rem;
+}
+@media (min-width: 550px) {
+  .card-container {
+    height: 720px;
+    width: 480px;
+  }
+  h1,
+  h2 {
+    color: hsl(0, 0%, 7%);
+    font-size: 1.2rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+  .text p {
+    font-size: 0.8rem;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+  .avatar img {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+  .img-container img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
