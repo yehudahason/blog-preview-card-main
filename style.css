@@ -17,20 +17,19 @@ main {
 }
 h1,
 h2 {
-  margin: 10px;
   color: hsl(0, 0%, 7%);
   font-size: 22px;
 }
 
 h2:hover {
-  color: yellow;
+  color: rgb(255, 190, 0);
   cursor: pointer;
 }
 span {
   width: 110px;
   display: block;
-  background-color: yellow;
-  padding: 2px;
+  background-color: rgb(255, 190, 0);
+  padding: 5px;
   border-radius: 5px;
   margin: 0;
 }
@@ -47,14 +46,15 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: start;
-  justify-content: space-around;
+  justify-content: center;
   padding: 0px 20px;
-  height: 582px;
-  width: 384px;
+  height: 470px;
+  width: 310px;
   border-radius: 10px;
   box-shadow: 7px 7px 5px hsl(0, 0%, 7%);
   background-color: white;
   text-align: left;
+  border: 1px solid #111111;
 }
 
 .avatar {
@@ -69,6 +69,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 8px;
 }
 
 .img-container img {
@@ -78,32 +79,4 @@ h3 {
 .avatar img {
   height: 45px;
   width: 45px;
-}
-@media (min-width: 550px) {
-  .card-container {
-    height: 720px;
-    width: 480px;
-  }
-  h1,
-  h2 {
-    color: hsl(0, 0%, 7%);
-    font-size: 25px;
-  }
-  p {
-    font-size: 20px;
-  }
-  .text p {
-    font-size: 20px;
-  }
-  h3 {
-    font-size: 25px;
-  }
-  .avatar img {
-    height: 60px;
-    width: 60px;
-    margin: 0 0 10px 8px;
-  }
-  .img-container img {
-    width: 100%;
-  }
 }
