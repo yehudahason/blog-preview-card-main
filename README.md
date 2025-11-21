@@ -4,7 +4,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Hosted On Github Pages](https://yehudahason.github.io/blog-preview-card-main/)
+- Solution URL: [Github Pages](https://yehudahason.github.io/blog-preview-card-main/)
 
 ### Built with
 
